@@ -32,10 +32,10 @@ function changeLanguage() {
     location.reload();
   }
 
-  document.querySelector(".lang-partner-text").innerHTML =
-    languageSelect["partner-text"][hash];
-  document.querySelector(".lang-food-text").innerHTML =
-    languageSelect["food-text"][hash];
+    for (let key in languageSelect) {
+    document.querySelector(".lang-" +  key).innerHTML = languageSelect[key][hash];
+  }
+
 }
 
 changeLanguage();
