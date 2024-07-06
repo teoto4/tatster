@@ -1,0 +1,10 @@
+:root {
+  --font-family: "Arial", sans-serif;
+  --second-family: "Roboto", sans-serif;
+}
+
+Arial Regular
+51
+
+Roboto Regular
+5
