@@ -9,4 +9,24 @@ export const languageSelect = {
     es: "Lo mejor de la comida callejera en casa.",
     fr: "Le meilleur de la street food à la maison",
   },
+  food_desc_btn: {
+    en: "Taster is a collection of online restaurants dedicated to bringing the best of street food to you.",
+    es: "Taster es una colección de restaurantes en línea dedicados a ofrecerte lo mejor de la comida callejera.",
+    fr: "Taster est une collection de restaurants en ligne dédiés à vous offrir le meilleur de la cuisine de rue.",
+  },
+  partner_button_1: {
+    en: "Become a partner",
+    es: "espania",
+    fr: "france",
+  },
+  partner_button_2: {
+    en: "Learn more",
+    es: "espania",
+    fr: "france",
+  },
+  discover: {
+    en: "Learn more",
+    es: "espania",
+    fr: "france",
+  },
 };
