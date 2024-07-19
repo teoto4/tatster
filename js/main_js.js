@@ -36,14 +36,10 @@ function changeLanguage() {
     languageSelect["partner-text"][hash];
   document.querySelector(".lang-food-text").innerHTML =
     languageSelect["food-text"][hash];
-  document.querySelector(".lang-food_desc_btn").innerHTML =
-    languageSelect["food_desc_btn"][hash];
-  document.querySelector(".lang-partner_button_1").innerHTML =
-    languageSelect["partner_button_1"][hash];
-  document.querySelector(".lang-partner_button_2").innerHTML =
-    languageSelect["partner_button_2"][hash];
-  document.querySelector(".lang-discover").innerHTML =
-    languageSelect["discover"][hash];
+}
+
+for (let key in languageSelect) {
+  document.querySelector(".lang-" + key).innerHTML = languageSelect[key][hash];
 }
 
 changeLanguage();
